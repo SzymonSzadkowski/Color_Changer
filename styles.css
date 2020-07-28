@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: lightgrey;
+}
+
+header{
+    padding: 1px;
+    background-color: grey;
+    text-align: center;
+    color: lightgrey;
+}
+
+.changer{
+    display: grid;
+    justify-items: center;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.changer p{
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: grey;
+    border: 2px solid lightgreen;
+    color: lightgreen;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightgreen;
+}
+
+.changeIt{
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: darkgrey;
+    border: 2px solid lightblue;
+    color: rgb(170, 224, 241);
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightblue;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 800px){
+    .changer p {
+        padding: 1%;
+    }
+
+    .changeIt{
+        padding: 1%;
+    }
+}
